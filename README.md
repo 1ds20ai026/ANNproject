@@ -1,14 +1,17 @@
 # ChurnGuard AI
 
 Customer Churn Prediction System
+
 Project Overview
 This project implements a machine learning system to predict customer churn in a banking context. It uses artificial neural networks (ANN) to analyze customer data and predict the likelihood of a customer leaving the bank's services.
+
 Technical Architecture
 1. Data Processing Pipeline
 
 Input Data Processing
 
 Removes irrelevant columns (RowNumber, CustomerId, Surname)
+
 Handles categorical variables:
 
 Gender: Label encoded (Male/Female → 0/1)
